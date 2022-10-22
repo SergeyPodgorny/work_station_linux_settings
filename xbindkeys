@@ -1,0 +1,15 @@
+# Mouse button 9 (or whatever number xev told you)
+    "xdotool set_desktop $(expr $(xdotool get_desktop) - 1)"
+        b:9
+    # Mouse button 8 (or whatever number xev told you)
+    "xdotool set_desktop $(expr $(xdotool get_desktop) + 1)"
+        b:8
+
+
+
+
+"amixer -q set Master 5+"
+m:0x1 + b:4
+
+"amixer -q set Master 5-"
+m:0x1 + b:5 
