@@ -1,0 +1,7 @@
+# Install buildx
+    # ref: https://travis-ci.community/t/docker-buildx-problems/11017
+    - mkdir -vp ~/.docker/cli-plugins/
+    - curl --silent -L "https://github.com/docker/buildx/releases/download/v0.3.0/buildx-v0.3.0.linux-amd64" > ~/.docker/cli-plugins/docker-buildx
+    - chmod a+x ~/.docker/cli-plugins/docker-buildx
+
+source: https://forum.gitlab.com/t/unknown-flag-platform-when-run-in-pipeline-to-aws/74320/2
