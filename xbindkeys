@@ -1,5 +1,6 @@
 
 #Remember sudo apt-get install xbindkeys xdotool
+#For additional information visit: https://defuse.ca/blog/linux-switch-virtual-desktop-workspace-mouse-button.html
 
 # Mouse button 9 (or whatever number xev told you)
     "xdotool set_desktop $(expr $(xdotool get_desktop) - 1)"
