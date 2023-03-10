@@ -1,3 +1,6 @@
+
+#Remember sudo apt-get install xbindkeys xdotool
+
 # Mouse button 9 (or whatever number xev told you)
     "xdotool set_desktop $(expr $(xdotool get_desktop) - 1)"
         b:9
