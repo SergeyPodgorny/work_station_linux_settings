@@ -1,0 +1,9 @@
+
+path:
+
+sudo vim /etc/default/grub
+
+insert line, so grub could look for other os installed on machine
+
+GRUB_DISABLE_OS_PROBER=false 
+
