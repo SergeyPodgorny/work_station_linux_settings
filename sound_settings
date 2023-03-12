@@ -1,0 +1,4 @@
+sudo vim /etc/pulse/default.pa
+
+
+Comment out the line : load-module module-suspend-on-idle
